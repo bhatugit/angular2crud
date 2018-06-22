@@ -1,0 +1,24 @@
+[
+    {"Name" : "kirti",
+    "Address" : "Pune",
+    "EmailAddress" : "kirti.phuge@xoriant.com"
+    },
+
+    {
+    "Name" : "pooja",
+    "Address" : "Pune",
+    "EmailAddress" : "kirti.phuge@xoriant.com" 
+    },
+
+    {
+    "Name" : "Sneha",
+    "Address" : "Pune",
+    "EmailAddress" : "kirti.phuge@xoriant.com" 
+    },
+
+    {
+    "Name" : "Amit",
+    "Address" : "Pune",
+    "EmailAddress" : "kirti.phuge@xoriant.com" 
+    }
+]

@@ -1,0 +1,21 @@
+
+<div class="bs-example">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>ADDRESS</th>
+                <th>EMAIL ADDRESS</th>
+            </tr>
+        </thead>
+        <tbody>
+              <tr *ngFor="let user of userDataReq ; let i = index">           
+                <td>{{user.Name}}</td>
+                <td>{{user.Address}}</td>
+                <td>{{user.EmailAddress}}</td>  
+                <td><button class="btn" (click)="editUser(user,i)">Edit</button>
+                <button class="btn" (click)="deleteUser(user,i)">Delete</button></td>
+              </tr>             
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,15 @@
+<form [formGroup]="addNewUserForm" (ngSubmit)="onClickAddNewUser(addNewUserForm.value)" >
+    <div class="form-group">
+        <label>Name</label>
+        <input type="input" class="form-control" formControlName="Name" placeholder="Name">
+      </div>
+      <div class="form-group">
+          <label>Address</label>
+          <input type="input" class="form-control"  formControlName="Address" placeholder="Address">
+        </div>
+  <div class="form-group">
+    <label>Email address</label>
+    <input type="email" class="form-control" aria-describedby="emailHelp" formControlName="EmailAddress" placeholder="Enter email">
+  </div>
+  <button type="submit" class="btn btn-primary">Save</button>
+</form>
